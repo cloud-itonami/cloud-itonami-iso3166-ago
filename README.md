@@ -1,8 +1,9 @@
 # cloud-itonami-iso3166-ago
 
-**AGO**: Republic of Angola.
+**`:implemented`** for **AGO**. Flagship `ao-entity-missing`, tax `nif-unverified`.
 
-- SNCP public procurement portal
-- NIF tax + commercial registry
+```
+clojure -M:dev:test
+```
 
 AGPL-3.0-or-later.
