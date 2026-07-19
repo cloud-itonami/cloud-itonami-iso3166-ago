@@ -1,0 +1,13 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:url "https://en.wikipedia.org/wiki/Moambe_chicken", :id "ago.dish.moamba-de-galinha", :kind :dish, :name-local "Moamba de galinha", :country "AGO", :retrieved-at "2026-07-17", :summary "Savory chicken dish with palm butter, regarded as a national dish of Angola (as moamba de galinha) and also of the Democratic Republic of the Congo and the Republic of the Congo.", :name "Moambe chicken", :url-provenance :wikipedia-en}
+#:culture{:id "ago.dish.funge", :name "Funge", :country "AGO", :kind :dish, :summary "Swallow made of cassava flour whisked into boiling water, a traditional staple in Angolan cuisine.", :url "https://en.wikipedia.org/wiki/Funge", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "ago.dish.calulu", :name "Calulu", :country "AGO", :kind :dish, :summary "Stew of fish or meat with vegetables such as okra and tomatoes cooked in palm oil, typical of Angola and also significant in São Tomé and Príncipe.", :url "https://en.wikipedia.org/wiki/Calulu", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "ago.dish.cocada-amarela", :name "Cocada amarela", :country "AGO", :kind :dish, :summary "Traditional Angolan dessert made from eggs and coconut, with a yellow hue from its high egg content.", :url "https://en.wikipedia.org/wiki/Cocada_amarela", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "ago.beverage.cuca", :name "Cuca", :country "AGO", :kind :beverage, :summary "Angolan pale lager brand established in 1947, manufactured in Luanda and Benguela by Companhia União de Cervejas de Angola.", :url "https://en.wikipedia.org/wiki/Cuca_(beer)", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "ago.heritage.mbanza-kongo", :name "M'banza-Kongo", :country "AGO", :kind :heritage, :summary "Capital of Zaire Province in northwestern Angola, inscribed as a UNESCO World Heritage Site in 2017 for the vestiges of the capital of the former Kingdom of Kongo.", :url "https://en.wikipedia.org/wiki/M%27banza-Kongo", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
