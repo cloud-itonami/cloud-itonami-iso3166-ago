@@ -1,0 +1,10 @@
+;; The AGO market-entry actor's Worker. :esm, same shape as
+;; cloud-itonami-isic-0111 and the marketplace family — this actor reuses
+;; their host rather than growing its own.
+{:deps {:aliases [:cljs]}
+ :builds
+ {:worker
+  {:target :esm
+   :output-dir "dist"
+   :modules {:worker {:exports {default marketentry.edge.worker/app}}}
+   :compiler-options {:output-feature-set :es2020 :infer-externs :auto}}}}
